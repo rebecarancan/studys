@@ -2,12 +2,12 @@ namespace :db do
   desc "Popular banco de dados."
   task utils: :environment do
   	puts "Gerando os contatos (Contacts)..."
-10.times do|i|
+100.times do|i|
 	Contact.create!(
 	 name: Faker::Name.name,
 	 email: Faker::Internet.email,
 	 kind: Kind.all.sample,
-	 rmk: Faker::Lorem.paragraph([1,2,3,4,5].sample)
+	 rmk: LeroleroGenerator.sentence
 	)
 end
 puts "Gerando os contatos (Contacts)... [OK]"
@@ -29,7 +29,7 @@ Contact.all.each do |contact|
 	  Phone.create!(
 		phone: Faker::PhoneNumber.phone_number,
 		contact: contact
-		) 
+		)
 	end
 end
 puts "Gerando os telefones (Phones)... [OK]"
