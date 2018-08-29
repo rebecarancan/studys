@@ -1,2 +1,2 @@
-# studys
-Ruby On Rails Studys
+# studies
+Ruby On Rails Studies
