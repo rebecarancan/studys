@@ -11,10 +11,13 @@ gem 'faker'
 gem 'kaminari'
 #Translations for the kaminari gem
 gem 'kaminari-i18n', '~> 0.5.0'
-#Dynamic nested forms using jQuery made easy; works with formtastic, simple_form or default forms
+#Bootstrap
+gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
+#Notify.js
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
+#Dynamic nested forms using jQuery made easy; works with formtastic, simple_form or default forms
 gem "cocoon"
-#Bundler-like DSL + rake tasks for Bower on Rails
+#A gem to automate using jQuery with Rails
 gem 'jquery-rails'
 #O Lero-lero Generator é uma ferramenta capaz de gerar frases que 'falam' muita coisa mas que não tem conteúdo algum.
 gem 'lerolero_generator'

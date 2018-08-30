@@ -2,6 +2,9 @@
   buttons:
     show: Mostrar
     edit: Editar
-    destroy: Apagar
+    destroy: Excluir
     new: Novo
     back: Voltar
+    home: Início
+    prev: Anterior
+    next: Próximo

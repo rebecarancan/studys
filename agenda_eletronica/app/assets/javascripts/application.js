@@ -14,6 +14,7 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require bootstrap
 //= require notifyjs
 //= require cocoon
 //= require_tree .
