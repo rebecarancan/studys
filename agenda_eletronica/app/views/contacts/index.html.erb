@@ -27,8 +27,10 @@
   </table>
 
   <br><%= page_entries_info @contacts %><br>
-  <%= link_to_prev_page @contacts, t('buttons.prev'), class: "badge badge-pill badge-secondary"  %>
-  <%= link_to_next_page @contacts, t('buttons.next'), class: "badge badge-pill badge-dark" %>
+  <p style="text-align: right;">
+    <%= link_to_prev_page @contacts, t('buttons.prev'), class: "badge badge-pill badge-secondary"  %>
+    <%= link_to_next_page @contacts, t('buttons.next'), class: "badge badge-pill badge-dark" %>
+  </p>
   <br><br>
   <%= link_to t('buttons.home'), home_index_path, class: "btn btn-secondary" %>
   <%= link_to t('buttons.new'), new_contact_path, class: "btn btn-danger" %>
